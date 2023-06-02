@@ -1,0 +1,12 @@
+canal:
+  server: 10.112.173.28:11111
+  destination: example
+logging:
+  level:
+    root: info
+    top:
+      javatool:
+        canal:
+          client:
+            client:
+              AbstractCanalClient: error
